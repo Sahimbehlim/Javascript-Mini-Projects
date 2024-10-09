@@ -21,7 +21,7 @@ const projects = [
   },
   {
     name: "Review Section",
-    link: "/review/index.html",
+    link: "/review-section/index.html",
   },
   {
     name: "Accordion",
