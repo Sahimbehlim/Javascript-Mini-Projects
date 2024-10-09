@@ -4,7 +4,7 @@ Welcome to the Mini Projects Showcase! This repository contains a collection of 
 
 ## Projects Included
 
-    - Accordion
-    - Accordion
-    - Accordion
-    - Accordion
+- Accordion
+- Accordion
+- Accordion
+- Accordion
