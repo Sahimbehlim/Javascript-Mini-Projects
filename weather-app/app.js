@@ -1,13 +1,9 @@
-const API_KEY = process.env.WEATHER_API_KEY;
-
 const searchBar = document.querySelector(".header input");
 const searchBtn = document.querySelector(".search-icon-box");
 const weatherBody = document.querySelector(".body");
 const weatherFooter = document.querySelector(".footer");
 
 searchBar.focus();
-
-console.log(API_KEY);
 
 // Checking weather functionality
 const checkWeather = async (city) => {
