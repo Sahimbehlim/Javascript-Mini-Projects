@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    font-weight: 600;
+    border: unset;
+}
+
+body,html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color:#0d6efd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+input[type='number'] {
+    border: 1px solid grey;
+    padding: 5px 10px;
+    border-radius: 5px;
+    width: 100%;
+}
+
+input[type='number']:focus {
+    outline: unset;
+}
+
+.select-box {
+    border: 1px solid grey;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 44%;
+    padding: 5px 10px;
+}
+
+.select-box img {
+    max-width: 45px;
+}
+
+select {
+    width: 70%;
+    padding: 5px;
+}
+
+select::-webkit-scrollbar {
+    width: 10px;
+}
+
+select::-webkit-scrollbar-thumb {
+    background-color: #0d6efd;
+}
+
+select:focus {
+    outline: unset;
+}
+
+i {
+    font-size: 1.5rem;
+    color: #0d6efd;
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 575px) {
+    .select-box {
+      width: auto;
+    }
+}
+  

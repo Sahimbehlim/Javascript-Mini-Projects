@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;400;500;600&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Poppins', sans-serif;
+    font-weight: 500;
+}
+
+body,html {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #f4c531;
+    display: flex;
+    justify-content: center;
+    align-items: start;
+}
+
+.data-head img{
+    width: 40%;
+}
+
+.dish-info {
+    background-color: #f4c531;
+    width: 80%;
+    text-align: center;
+    margin-top: -75px;
+}
+
+.data-body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+.data-body ul{
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 1em 2em;
+}
+
+.recipe-desc {
+    position: absolute;
+    background-color: #FFF;
+    top: 0;
+    left: 0;
+    display: none;
+    width: 100%;
+    min-height: 100%;
+}
+
+.recipe-desc p {
+    white-space: pre-wrap;
+    word-wrap: break-word;
+}
+
+@media only screen and (max-width: 767px) {
+    .data-head img {
+        width: 45%;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    h4 {
+        font-size: 1.1rem;
+    }
+
+    .data-head img {
+        width: 80%;
+    } 
+
+    .dish-info {
+        margin-top: -60px;
+        width: 90%;
+    }
+
+    .data-body ul{
+        grid-template-columns: auto;
+        gap: 1em;
+    }
+}

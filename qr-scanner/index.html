@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Code Scanner</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-11 col-md-8 col-lg-6 col-xl-5 col-xxl-4 bg-primary rounded-2 p-4 wrapper">
+                <form action="#" class="bg-white rounded-2 p-1 d-flex flex-column justify-content-center align-items-center">
+                    <img src="" alt="qr-img" class="img-fluid py-3">
+                    <input type="file" hidden>
+                    <div class="content text-center">
+                        <i class="ri-upload-cloud-2-fill"></i>
+                        <h5 class="text-primary">Upload QR Code To Scan</h5>
+                    </div>
+                </form>
+                <div class="details mt-3">
+                    <textarea class="w-100 rounded-2 text-white p-2" disabled></textarea>
+                    <div class="buttons pt-2 d-flex justify-content-between">
+                        <button class="btn bg-white text-primary fw-semibold">Close</button>
+                        <button class="btn bg-white text-primary fw-semibold">Visit URL</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="app.js"></script>
+</html>

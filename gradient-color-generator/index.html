@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gradient Color Generator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-11 col-md-9 col-lg-7 col-xl-6 col-xxl-5 bg-white rounded-3 p-4">
+                <div class="gradient-box rounded-3"></div>
+                <div class="input my-3 d-flex justify-content-between align-items-center">
+                    <div class="direction">
+                        <p>Direction</p>
+                        <select class="w-100 form-select border border-1 border-secondary">
+                            <option value="to top">Top</option>
+                            <option value="to right top">Right Top</option>
+                            <option value="to right">Right</option>
+                            <option value="to right bottom">Right Bottom</option>
+                            <option value="to bottom">Bottom</option>
+                            <option value="to left bottom">Left Bottom</option>
+                            <option value="to left">Left</option>
+                            <option value="to left top">Left Top</option>
+                        </select>
+                    </div>
+                    <div class="colors">
+                        <p>Colors</p>
+                        <div class="input-color d-flex">
+                            <input type="color" value="#5665E9" class="me-3">
+                            <input type="color" value="#a271f8">
+                        </div>
+                    </div>
+                </div>
+                <textarea class="form-control border border-1 border-secondary" disabled>background: linear-gradient(to top, #7f7796, #cd66d9);</textarea>
+                <div class="buttons d-flex mt-3 justify-content-between align-items-center">
+                    <button class="btn btn-secondary">Refresh Colors</button>
+                    <button class="btn btn-success">Copy Code</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="app.js" defer></script>
+</html>

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Language Translator</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="d-sm-flex align-items-center">
+    <div class="container d-flex justify-content-center p-4">
+        <div class="row bg-white p-4 rounded-2">
+            <div class="col-12 col-sm-6">
+                <textarea
+                class="border border-1 rounded-1 border-secondary p-2 w-100 input"
+                placeholder="Enter Text"></textarea>
+            </div>
+            <div class=" col-12 col-sm-6">
+                <textarea 
+                class="border border-1 rounded-1 border-secondary p-2 w-100 output" disabled
+                ></textarea>
+            </div>
+            <div class="col-12 my-3">
+                <div class="border border-1 rounded-1 border-secondary d-flex flex-column flex-sm-row align-items-center">
+                    <div class="from d-flex w-50 p-1 px-3 me-sm-2">
+                        <div class="icons me-sm-auto ms-4 ms-sm-0">
+                            <i id="from" class="ri-clipboard-line"></i>
+                        </div>
+                        <select class="border-0 order-sm-0 order-first"></select>
+                    </div>
+                    <i class="ri-arrow-left-right-line swap my-2 my-sm-0"></i>
+                    <div class="to d-flex w-50 p-1 ms-sm-2 px-3">
+                        <select class="border-0"></select>
+                        <div class="icons ms-sm-auto ms-4">
+                            <i id="to" class="ri-clipboard-line"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <button class="btn btn-primary w-100">Translate</button>
+            </div>
+        </div>
+    </div>
+</body>
+    <script src="language_list.js"></script>
+    <script src="app.js"></script>
+</html>
