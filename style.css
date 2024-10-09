@@ -12,6 +12,7 @@ html, body {
     height: 100%;
 }
 
-a:hover{
-    transform: scale(1.2);
+a:hover {
+   transform: scale(0.95);
+   transition: all 0.3s ease;
 }
