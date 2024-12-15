@@ -25,3 +25,4 @@ Welcome to the Mini Projects Showcase! This repository contains a collection of 
 - Review Section
 - Tabs
 - Weather App
+- Word Counter
