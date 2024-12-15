@@ -83,4 +83,8 @@ const projects = [
     name: "Weather App",
     link: "weather-app/index.html",
   },
+  {
+    name: "Word Counter",
+    link: "word-counter/index.html",
+  },
 ];
