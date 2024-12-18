@@ -19,6 +19,7 @@ Welcome to the Mini Projects Showcase! This repository contains a collection of 
 - Navbar
 - Number Guessing Game
 - Password Validator
+- Product Filter & Search
 - QR Generator
 - QR Scanner
 - Recipe App
