@@ -1,0 +1,109 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "image": "images/motorcycle jacket.webp",
+      "name": "Motorcycle Jacket",
+      "price": 179.99,
+      "category": "Jacket"
+    },
+    {
+      "id": 2,
+      "image": "images/chronograph watch.webp",
+      "name": "Chronograph Watch",
+      "price": 249.99,
+      "category": "Watch"
+    },
+    {
+      "id": 3,
+      "image": "images/winter coat.webp",
+      "name": "Winter Ski Jacket",
+      "price": 129.99,
+      "category": "Jacket"
+    },
+    {
+      "id": 4,
+      "image": "images/smart touch watch.webp",
+      "name": "Smart Touch Watch",
+      "price": 199.99,
+      "category": "Watch"
+    },
+    {
+      "id": 5,
+      "image": "images/sports running shoes.webp",
+      "name": "Sports Running Shoes",
+      "price": 89.99,
+      "category": "Shoes"
+    },
+    {
+      "id": 6,
+      "image": "images/classic brown wallet.webp",
+      "name": "Classic Brown Wallet",
+      "price": 59.99,
+      "category": "Wallets"
+    },
+    {
+      "id": 7,
+      "image": "images/suede hiking boots.webp",
+      "name": "Suede Hiking Boots",
+      "price": 169.99,
+      "category": "Shoes"
+    },
+    {
+      "id": 8,
+      "image": "images/slim rfid wallet.webp",
+      "name": "Slim RFID Wallet",
+      "price": 39.99,
+      "category": "Wallets"
+    },
+    {
+      "id": 9,
+      "image": "images/bomber flight jacket.webp",
+      "name": "Bomber Flight Jacket",
+      "price": 99.99,
+      "category": "Jacket"
+    },
+    {
+      "id": 10,
+      "image": "images/luxury diamond watch.webp",
+      "name": "Luxury Diamond Watch",
+      "price": 999.99,
+      "category": "Watch"
+    },
+    {
+      "id": 11,
+      "image": "images/casual sneakers.webp",
+      "name": "Casual Sneakers",
+      "price": 79.99,
+      "category": "Shoes"
+    },
+    {
+      "id": 12,
+      "image": "images/genuine leather wallet.webp",
+      "name": "Genuine Leather Wallet",
+      "price": 69.99,
+      "category": "Wallets"
+    },
+    {
+      "id": 13,
+      "image": "images/hooded parka jacket.webp",
+      "name": "Hooded Parka Jacket",
+      "price": 149.99,
+      "category": "Jacket"
+    },
+    {
+      "id": 14,
+      "image": "images/fitness smartwatch.webp",
+      "name": "Fitness Smartwatch",
+      "price": 159.99,
+      "category": "Watch"
+    },
+    {
+      "id": 15,
+      "image": "images/high-top running shoes.webp",
+      "name": "High-Top Running Shoes",
+      "price": 109.99,
+      "category": "Shoes"
+    }
+  ]
+}
