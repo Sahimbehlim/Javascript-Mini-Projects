@@ -87,4 +87,8 @@ const projects = [
     name: "Word Counter",
     link: "word-counter/index.html",
   },
+  {
+    name: "Product Filter & Search",
+    link: "product-filter-search/index.html",
+  },
 ];
