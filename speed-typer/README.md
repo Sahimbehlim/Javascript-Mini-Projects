@@ -4,7 +4,7 @@ Speed Typer is a fast-paced typing game that tests your typing speed and accurac
 
 ## 🖥️ Demo
 
-[Live Demo](https://google.com)
+[Live Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/speed-typer/index.html)
 
 ## 📋 Features
 
@@ -29,8 +29,6 @@ Speed Typer is a fast-paced typing game that tests your typing speed and accurac
 ### End Screen
 
 ![End Screen Screenshot]()
-
-Add Screenshot here
 
 ## 🙌 Acknowledgments
 
