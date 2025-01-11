@@ -20,15 +20,9 @@ Speed Typer is a fast-paced typing game that tests your typing speed and accurac
 - **CSS3 (Bootstrap)**: For styling and responsive design.
 - **JavaScript**: For game logic and interactivity.
 
-## 📷 Screenshots
+## 📷 Screenshot
 
-### Gameplay
-
-![Gameplay Screenshot]()
-
-### End Screen
-
-![End Screen Screenshot]()
+![UI](./assets/ui.png)
 
 ## 🙌 Acknowledgments
 
