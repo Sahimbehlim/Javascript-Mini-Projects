@@ -91,4 +91,8 @@ const projects = [
     name: "Product Filter & Search",
     link: "product-filter-search/index.html",
   },
+  {
+    name: "Speed Typer",
+    link: "speed-typer/index.html",
+  },
 ];
