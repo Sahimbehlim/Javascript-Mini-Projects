@@ -24,6 +24,7 @@ Welcome to the Mini Projects Showcase! This repository contains a collection of 
 - QR Scanner
 - Recipe App
 - Review Section
+- Speed Typer
 - Tabs
 - Weather App
 - Word Counter
