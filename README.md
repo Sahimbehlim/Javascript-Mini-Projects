@@ -27,5 +27,6 @@ Welcome to the Mini Projects Showcase! This repository contains a collection of 
 - Review Section
 - Speed Typer
 - Tabs
+- Todo App
 - Weather App
 - Word Counter

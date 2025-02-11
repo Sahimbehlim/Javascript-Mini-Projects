@@ -99,4 +99,8 @@ const projects = [
     name: "Quiz App",
     link: "quiz-app/index.html",
   },
+  {
+    name: "Todo App",
+    link: "todo-app/index.html",
+  },
 ];
