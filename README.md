@@ -13,6 +13,7 @@ Welcome to the Mini Projects Showcase! This repository contains a collection of 
 - Country Info
 - Currency Converter
 - Dynamic Menu
+- Flashcard App
 - Gradient Generator
 - Image Search Engine
 - Income Expense Tracker

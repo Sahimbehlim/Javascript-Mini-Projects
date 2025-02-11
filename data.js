@@ -115,4 +115,8 @@ const projects = [
     name: "Income Expense Tracker",
     link: "income-expense-tracker/index.html",
   },
+  {
+    name: "Flashcard App",
+    link: "flashcard-app/index.html",
+  },
 ];
