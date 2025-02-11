@@ -95,4 +95,8 @@ const projects = [
     name: "Speed Typer",
     link: "speed-typer/index.html",
   },
+  {
+    name: "Quiz App",
+    link: "quiz-app/index.html",
+  },
 ];

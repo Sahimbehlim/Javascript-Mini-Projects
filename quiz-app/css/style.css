@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+body {
+    background-color: #0d6efd;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #111;
+}
+
+#line {
+    position: absolute;
+    left: -0px;
+    bottom: -15px;
+    content: "";
+    background-color: #0d6efd;
+    width: 20%;
+    height: 5px;
+    transition: width 0.5s ease;
+}
+
+.ans-div {
+    display: flex;
+    border: 1px solid #0d6efd;
+    padding: 6px 14px;
+    border-radius: 5px;
+    background-color: #edf4ff;
+    margin-bottom: 1rem;
+}
+
+.ans-div input {
+    display: none;
+}
+
+.ans-div.right {
+    background-color: rgb(198, 243, 198);
+    color: rgb(2, 85, 2);
+    border: 1px solid rgb(198, 243, 198);
+    transition: all 0.3s ease;
+}
+
+.ans-div.wrong {
+    background-color: rgb(240, 161, 161);
+    color: rgb(151, 0, 0);
+    border: 1px solid rgb(240, 161, 161);
+    transition: all 0.3s ease;
+}
+
+.ans-div label {
+    width: 100%;
+}
+
+.ans-div * {
+    cursor: pointer;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid grey;
+    padding: 0.8rem 2rem;
+}
+
+.footer span {
+    font-weight: bold;
+}
+
+.endQuiz .ri-checkbox-circle-fill{
+    color: #0E5E24;
+}
+
+.endQuiz .ri-close-circle-fill{
+    color: rgb(151, 0, 0);
+}
+
+.endQuiz .ri-checkbox-blank-circle-fill{
+    color: #888888;
+}
+
+@media screen and (max-width: 575px) {
+   .head h4,.endQuiz h3 {
+        font-size: 17px;
+   }
+   .head p,.footer * {
+        font-size: 14px;
+   }
+   .body h5 {
+        font-size: 1rem;
+   }
+   .body label {
+        font-size: 13px;
+   }
+   .endQuiz button {
+        font-size: 14px;
+   }
+}
