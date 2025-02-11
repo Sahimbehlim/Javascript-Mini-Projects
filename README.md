@@ -6,6 +6,7 @@ Welcome to the Mini Projects Showcase! This repository contains a collection of 
 
 - Accordion
 - Age Calculator
+- Budget Tracker
 - Calculator
 - Color Flipper
 - Color Palette Generator

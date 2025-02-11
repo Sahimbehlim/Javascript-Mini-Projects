@@ -119,4 +119,8 @@ const projects = [
     name: "Flashcard App",
     link: "flashcard-app/index.html",
   },
+  {
+    name: "Budget Tracker",
+    link: "budget-tracker/index.html",
+  },
 ];

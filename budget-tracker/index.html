@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Budget Tracker</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/remixicon@4.5.0/fonts/remixicon.css"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-11 col-sm-12 d-flex flex-column gap-4 py-4">
+          <!-- Input Section -->
+          <section
+            class="d-flex flex-column flex-md-row justify-content-md-between gap-4"
+          >
+            <!-- Budget Box -->
+            <div
+              class="budget-box bg-white px-3 py-4 rounded-3 d-flex flex-column gap-3"
+            >
+              <h5>Budget</h5>
+              <input
+                type="number"
+                class="form-control"
+                placeholder="Enter total amount"
+              />
+              <button class="btn btn-outline-primary">Set Budget</button>
+            </div>
+
+            <!-- Expense Box -->
+            <div
+              class="expense-box bg-white px-3 py-4 rounded-3 d-flex flex-column gap-3"
+            >
+              <h5>Expenses</h5>
+              <input
+                type="text"
+                class="form-control"
+                placeholder="Enter title of product"
+              />
+              <input
+                type="number"
+                class="form-control"
+                placeholder="Enter cost of product"
+              />
+              <button class="btn btn-outline-primary">Add Product</button>
+            </div>
+          </section>
+
+          <!-- Result Section -->
+          <section
+            class="result-box bg-primary rounded-3 p-3 p-md-4 text-white d-flex align-items-center justify-content-between text-center"
+          >
+            <div class="d-flex flex-column gap-2">
+              <p class="fw-medium">Total Budget</p>
+              <p id="total-budget">0</p>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <p class="fw-medium">Expenses</p>
+              <p id="total-expense">0</p>
+            </div>
+            <div class="d-flex flex-column gap-2">
+              <p class="fw-medium">Balance</p>
+              <p id="total-balance">0</p>
+            </div>
+          </section>
+
+          <!-- Expense List Section -->
+          <section
+            class="bg-white rounded-3 px-4 pt-3 d-flex flex-column gap-3 expense-list-section"
+          >
+            <h5>Expense List</h5>
+            <div class="expense-list-wrapper overflow-x-auto"></div>
+          </section>
+        </div>
+      </div>
+    </div>
+  </body>
+  <script src="app.js"></script>
+</html>
