@@ -1,0 +1,128 @@
+/* Import Poppins font from Google Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800&display=swap');
+
+/* Apply general styling to all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", system-ui; 
+}
+
+/* Ensure html and body take up full height and width of the viewport */
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+
+/* Style the body to center content and apply transition effects */
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: all 0.5s ease;
+  background-color: #F6F4F0;
+}
+
+/* Custom variables */
+:root {
+  --color-green:#198754;
+  --color-red:#dc3545;
+  --color-blue : #0d6efd;
+} 
+
+/* Style for the image in the loading box */
+.load-box img {
+  width: 300px;
+}
+
+/* General styling for the question and options containers */
+.question-div, .options-div {
+    background: #F5F5F57A;
+}
+
+/* Styling for the timer */
+.timer {
+    width: max-content;
+    margin-left: auto;
+    padding: 8px 16px;
+    border-radius: 8px;
+    font-weight: 600;
+    color: #fff;
+    font-size: 18px;
+}
+
+/* Styling for each option */
+.option {
+  border: 3px solid #D9D9D9;
+  padding: 10px 16px;
+  display: flex;
+  align-items: center;
+  border-radius: 8px;
+  background-color: transparent;
+  width: 100%;
+  transition:all 0.5s ease;
+  cursor: pointer;
+}
+
+/* Ensure all child elements of .option also have pointer cursor */
+.option * {
+  cursor: pointer;
+}
+
+/* Styling for a selected (clicked) option */
+.option.clicked {
+    border: 3px solid var(--color-blue);
+}
+
+/* Styling for a correct option */
+.option.correct {
+  border: 3px solid var(--color-green);
+}
+
+/* Styling for a wrong option */
+.option.wrong {
+  border: 3px solid var(--color-red);
+}
+
+/* Disable interactions for options that are disabled */
+.option.disabled {
+  pointer-events: none;
+}
+
+/* Hide the radio button inputs */
+.option input {
+    display: none;
+}
+
+/* Ensure the label fills the option container */
+.option label {
+  width: 100%;
+  height: 100%;
+}
+
+/* Style for the image in the result box */
+.result-box img {
+  width: 160px; 
+}
+
+
+@media only screen and (max-width: 600px) {
+  .question-div h5 {
+    font-size: 16px;
+  }
+  .timer {
+    font-size: 16px;
+    padding: 7px 14px;
+  }
+  .option {
+    padding: 8px 14px;
+  }
+  .option label {
+    font-size: 14px;
+  }
+  .next-btn {
+    font-size: 14px;
+  }
+}
