@@ -22,6 +22,7 @@ Welcome to the Mini Projects Showcase! This repository contains a collection of 
 - Product Filter & Search
 - QR Generator
 - QR Scanner
+- Quiz App
 - Recipe App
 - Review Section
 - Speed Typer
