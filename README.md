@@ -30,4 +30,5 @@ Welcome to the Mini Projects Showcase! This repository contains a collection of 
 - Tabs
 - Todo App
 - Weather App
+- Weather App II
 - Word Counter
