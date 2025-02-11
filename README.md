@@ -1,37 +1,39 @@
 # Javascript-Mini-Projects
 
-Welcome to the Mini Projects Showcase! This repository contains a collection of small projects built using HTML, CSS, and JavaScript
+Welcome to the Mini Projects Showcase! This repository contains a collection of small projects built using HTML, CSS, and JavaScript.
 
 ## Projects Included
 
-- Accordion
-- Age Calculator
-- Budget Tracker
-- Calculator
-- Color Flipper
-- Color Palette Generator
-- Counter
-- Country Info
-- Currency Converter
-- Dynamic Menu
-- Flashcard App
-- Gradient Generator
-- Image Search Engine
-- Income Expense Tracker
-- Language Translator
-- Navbar
-- Number Guessing Game
-- Password Validator
-- Product Filter & Search
-- QR Generator
-- QR Scanner
-- Quiz App
-- Quiz App II
-- Recipe App
-- Review Section
-- Speed Typer
-- Tabs
-- Todo App
-- Weather App
-- Weather App II
-- Word Counter
+| Project Name            | Code Link                                                                                                         | Live Demo Link                                                                                                    |
+| ----------------------- | ----------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------- |
+| Accordion               | [Accordion Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/accordion)                     | [Accordion Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/accordion/index.html)                     |
+| Age Calculator          | [Age Calculator Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/age-calculator)           | [Age Calculator Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/age-calculator/index.html)           |
+| Budget Tracker          | [Budget Tracker Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/budget-tracker)           | [Budget Tracker Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/budget-tracker/index.html)           |
+| Calculator              | [Calculator Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/calculator)                   | [Calculator Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/calculator/index.html)                   |
+| Color Flipper           | [Color Flipper Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/color-flipper)             | [Color Flipper Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/color-flipper/index.html)             |
+| Color Palette Generator | [Color Palette Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/color-palette-generator)   | [Color Palette Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/color-palette-generator/index.html)   |
+| Counter                 | [Counter Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/counter)                         | [Counter Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/counter/index.html)                         |
+| Country Info            | [Country Info Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/country-info)               | [Country Info Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/country-info/index.html)               |
+| Currency Converter      | [Currency Converter Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/currency-converter)   | [Currency Converter Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/currency-converter/index.html)   |
+| Dynamic Menu            | [Dynamic Menu Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/dynamic-menu)               | [Dynamic Menu Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/dynamic-menu/index.html)               |
+| Flashcard App           | [Flashcard App Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/flashcard-app)             | [Flashcard App Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/flashcard-app/index.html)             |
+| Gradient Generator      | [Gradient Generator Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/gradient-generator)   | [Gradient Generator Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/gradient-generator/index.html)   |
+| Image Search Engine     | [Image Search Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/image-search-engine)        | [Image Search Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/image-search-engine/index.html)        |
+| Income Expense Tracker  | [Income Expense Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/income-expense-tracker)   | [Income Expense Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/income-expense-tracker/index.html)   |
+| Language Translator     | [Language Translator Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/language-translator) | [Language Translator Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/language-translator/index.html) |
+| Navbar                  | [Navbar Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/navbar)                           | [Navbar Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/navbar/index.html)                           |
+| Number Guessing Game    | [Number Guessing Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/number-guessing-game)    | [Number Guessing Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/number-guessing-game/index.html)    |
+| Password Validator      | [Password Validator Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/password-validator)   | [Password Validator Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/password-validator/index.html)   |
+| Product Filter & Search | [Product Filter Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/product-filter-search)    | [Product Filter Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/product-filter-search/index.html)    |
+| QR Generator            | [QR Generator Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/qr-generator)               | [QR Generator Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/qr-generator/index.html)               |
+| QR Scanner              | [QR Scanner Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/qr-scanner)                   | [QR Scanner Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/qr-scanner/index.html)                   |
+| Quiz App                | [Quiz App Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/quiz-app)                       | [Quiz App Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/quiz-app/index.html)                       |
+| Quiz App II             | [Quiz App II Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/quiz-app-ii)                 | [Quiz App II Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/quiz-app-ii/index.html)                 |
+| Recipe App              | [Recipe App Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/recipe-app)                   | [Recipe App Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/recipe-app/index.html)                   |
+| Review Section          | [Review Section Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/review-section)           | [Review Section Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/review-section/index.html)           |
+| Speed Typer             | [Speed Typer Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/speed-typer)                 | [Speed Typer Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/speed-typer/index.html)                 |
+| Tabs                    | [Tabs Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/tabs)                               | [Tabs Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/tabs/index.html)                               |
+| Todo App                | [Todo App Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/todo-app)                       | [Todo App Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/todo-app/index.html)                       |
+| Weather App             | [Weather App Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/weather-app)                 | [Weather App Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/weather-app/index.html)                 |
+| Weather App II          | [Weather App II Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/weather-app-ii)           | [Weather App II Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/weather-app-ii/index.html)           |
+| Word Counter            | [Word Counter Code](https://github.com/Sahimbehlim/Javascript-Mini-Projects/tree/main/word-counter)               | [Word Counter Demo](https://sahimbehlim.github.io/Javascript-Mini-Projects/word-counter/index.html)               |
