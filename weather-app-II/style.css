@@ -1,0 +1,54 @@
+/* Importing the "Roboto Condensed" font from Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@100..900&display=swap");
+
+/* Global reset for all elements */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Condensed", sans-serif;
+}
+
+/* Set width and height to 100% for both html and body */
+html,
+body {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  background-color: rgb(210, 227, 248);
+}
+
+p {
+  margin: 0;
+}
+
+.input-box {
+  width: 25%;
+}
+
+.output-box {
+  width: 75%;
+}
+
+.today-weather-card .icon-box img {
+  max-width: 120px;
+}
+
+.today-weather-card .icon-box p {
+  text-transform: capitalize;
+}
+
+.weather-sub-card img {
+  max-width: 80px;
+}
+
+/* Responsive styles for screens smaller than 992px (tablets and smaller devices) */
+@media (max-width: 992px) {
+  /* Styles for screens below 768px */
+  .input-box,
+  .output-box {
+    width: 100%;
+  }
+}

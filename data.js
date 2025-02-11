@@ -107,4 +107,8 @@ const projects = [
     name: "Quiz App II",
     link: "quiz-app-II/index.html",
   },
+  {
+    name: "Weather App II",
+    link: "weather-app-II/index.html",
+  },
 ];
