@@ -15,6 +15,7 @@ Welcome to the Mini Projects Showcase! This repository contains a collection of 
 - Dynamic Menu
 - Gradient Generator
 - Image Search Engine
+- Income Expense Tracker
 - Language Translator
 - Navbar
 - Number Guessing Game

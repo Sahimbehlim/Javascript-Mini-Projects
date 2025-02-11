@@ -111,4 +111,8 @@ const projects = [
     name: "Weather App II",
     link: "weather-app-II/index.html",
   },
+  {
+    name: "Income Expense Tracker",
+    link: "income-expense-tracker/index.html",
+  },
 ];
